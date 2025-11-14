@@ -1,4 +1,4 @@
-h1{
+/* h1{
     background: rgb(68, 105, 68);
     color: white;
 
@@ -8,4 +8,40 @@ h2{
 }
 #class2{
 background-color: blue;
+} */
+ *{
+padding: 0px;
+margin: 0px;
+ }
+
+h2{
+    background: orange;
+    position: relative;
+    left: 150px;
+    top: 200px;
+    /* bottom: 100px;
+    right: 100px;
+    top: 50px; */
+
+}
+h3{
+    background: pink;
+    position: fixed;
+    top: 0px;
+}
+#div1{
+    background: rgb(134, 130, 130);
+    height: 800px;
+}
+h4{
+ background: rgb(210, 252, 126);
+ position: sticky;
+ top: 0px;
+}
+#pid1{
+    background: rgb(253, 82, 82);
+    color: white;
+    position: absolute;
+    right:  0px;
+
 }
