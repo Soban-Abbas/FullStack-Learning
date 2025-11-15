@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.chess{
+    display: grid;
+    background: white;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    height: 400px;
+    width: 400px;
+}
+.brown{
+    background: brown;
+    height: 50px;
+    width: 50px;
+}
+.white{
+    background: white;
+    height: 50px;
+    width: 50px;
+}
+
+.div1{
+    background: greenyellow;
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr ;
+}
