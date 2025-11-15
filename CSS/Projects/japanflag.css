@@ -1,0 +1,22 @@
+*{
+padding: 0px;
+margin: 0px;
+background: black;
+}
+.div1{
+    height: 200px;
+    width: 300px;
+    background: white;
+    position: relative;
+}
+.circle{
+
+    height: 100px;
+    width: 100px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+
+}

@@ -1,0 +1,51 @@
+body{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    height: 100dvh;
+    width: 100dvw;
+    background: black;
+}
+
+
+.div1{
+    height: 250px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: yellow;
+
+}
+
+.top_left{
+    background: blue;
+    position: absolute;
+    height: 100px;
+    width: 125px;
+    left: 0px;
+}
+.buttom_left{
+    background: blue;
+    position: absolute;
+    height: 100px;
+    width: 125px;
+    bottom: 0px;
+}
+.buttom_right{
+    background: blue;
+    position: absolute;
+    height: 100px;
+    width: 225px;
+    bottom: 0px;
+    right: 0px;
+}
+.top_right{
+    background: blue;
+    position: absolute;
+    height: 100px;
+    width: 225px;
+    right: 0px;
+}
+
