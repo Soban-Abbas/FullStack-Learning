@@ -1,0 +1,22 @@
+.div1{
+    background: orange;
+    height: 300px;
+    width: 300px;
+
+}
+    
+@media  (min-width:0px) and (max-width:480px) {
+    .div1{
+        height: 50px;
+        width: 50px;
+        background: rgb(86, 105, 47);
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .div1{
+        height: 150px;
+        width: 150px;
+        background: #ad2525;
+    }
+}
