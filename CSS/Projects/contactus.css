@@ -42,13 +42,20 @@ grid-column:1/3 ;
 input{
     height: 30px;
     width: 100%;
-    
-    
-}
-input:focus{
+      background: #2A7D6C;
     border-color: #095457;
-    outline: none;
-    
+
+}
+
+input::placeholder{
+     color: rgb(206, 203, 203);
+}
+
+select{
+    height: 30px;
+    background: #2A7D6C;
+    border-color: #095457;
+    color: rgb(206, 203, 203);
 }
 
 .heading {
