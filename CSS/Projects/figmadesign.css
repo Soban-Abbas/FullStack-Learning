@@ -1,0 +1,72 @@
+*{
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+body{
+    height: 100dvh;
+    padding: 0px;
+    margin: 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background:#2A7D6C;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.form{
+    display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     gap: 10px;
+     width: 100%;
+     padding: 10px;
+     
+
+}
+
+.country{
+grid-column:1/3 ;
+}
+
+input{
+    height: 30px;
+    width: 100%;
+    
+    
+}
+input:focus{
+    border-color: #095457;
+    outline: none;
+    
+}
+
+.heading {
+    color: white;
+    font-size: small;
+
+}
+.submit{
+    background: #5BC8AF;
+    color: white;
+    font-size: medium;
+    width: 50%;
+height: 30px;
+
+border: none;
+margin-top:10px ;
+
+}
+
+
+
