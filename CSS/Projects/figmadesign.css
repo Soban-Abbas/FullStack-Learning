@@ -1,162 +1,252 @@
-*{
+* {
   font-family: sans-serif;
   box-sizing: border-box;
-
+  padding: 0px;
+  margin: 0px;
 }
-body{
-padding: 0px;
-margin: 0px;
+body {
+  padding: 0px;
+  margin: 0px;
 }
-.main{
+.main {
   position: relative;
   width: 100%;
-  height: 85vh;
+  min-height: 75vh;
   background-image: url(mainbg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center ;
+  background-position: center;
 }
 
-.navbar{
+.navbar {
   height: 10vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-
 }
-.logo{
+.logo {
   width: 40%;
 }
-.pages{
+.pages {
   display: flex;
   gap: 20px;
 }
-.number{
+.number {
   color: white;
   font-size: small;
 }
-.number p a{
-  color: #5BC8AF;
+.number p a {
+  color: #5bc8af;
 }
 
-.pages a{
+.pages a {
   text-decoration: none;
-color: white;
-font-size: small;
+  color: white;
+  font-size: small;
 }
 .home {
   font-weight: 700;
 }
-.hero{
-  height:calc(80vh - 10vh - 10vh);
+.hero {
+  min-height: calc(80vh - 10vh - 10vh);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
 
-.left{
-width: 50%;
-background-color: yellowgreen;
-height: 100%;
-
+.left {
+  width: 50%;
+  height: 100%;
+  color: white;
 }
-.right{
+.left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+}
+
+.left-box h1 span {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+
+.leftbox h1 {
+  margin: 0px;
+}
+.right {
   width: 40%;
   height: 100%;
-  background-color: pink;
 
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.form{
+.left-box h1,
+.left-box p {
+  margin-top: 20px;
+}
+.left-box p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #dcd7d7;
+}
+.form {
   width: 80%;
-  background: black;
+
   border-radius: 10px;
-height: 80%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background: #2A7D6C;
+  padding:  10px ;
+  color: white;
+  
+}
+.form-input{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+  
+}
+.input::placeholder{
+  color: white;
+}
+.input{
+  width: 90%;
+  padding: 5px;
+  height: 30px;
+  background: #2A7D6C;
+  border: 1px solid rgb(222, 217, 217);
+}
+.five{
+  color: white;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 95%;
+}
+.btn{
+  color: white;
+  background:#5BC8AF;
+  padding: 5px;
+  width: 40%;
+  border: none;
+  cursor: pointer;
+  
 }
 
 .curve{
-  position: absolute;
-  bottom: -5px;
-  
-
-  width: 100%;
+width: 100%;
 }
 .curve img{
   width: 100%;
+  display: block;
 }
-@media (min-width:0px) and (max-width:480px) {
-  body{
+
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+  body {
     font-size: 14px;
   }
-  .navbar{
+  .navbar {
     flex-wrap: wrap;
     align-items: flex-start;
   }
-  .navbar{
-    height: 30vh;
+  .navbar {
+    height: 15vh;
   }
-  .logo{
+  .logo {
     width: 50%;
   }
- 
-  .pages{
+
+  .pages {
     width: 50%;
     gap: 10px;
     justify-content: flex-end;
   }
-  
-  .logo img{
+
+  .logo img {
     height: 20px;
   }
- .number{
-  display: inline-block;
+  .number {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+  }
+
+  .hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+  }
+  .right{
   width: 100%;
-  text-align: right;
-
- }
-  
-
+}
+.form{
+  width: 70%;
+}
 }
 
-@media (min-width:481px) and (max-width:786px) {
-  body{
+
+@media (min-width: 481px) and (max-width: 786px) {
+  body {
     font-size: 15px;
   }
-  .navbar{
+  .navbar {
     flex-wrap: wrap;
     align-items: flex-start;
   }
-  .navbar{
-    height: 30vh;
+  .navbar {
+    height: 15vh;
   }
-  .logo{
+  .logo {
     width: 50%;
   }
- 
-  .pages{
+
+  .pages {
     width: 50%;
     gap: 10px;
     justify-content: flex-end;
   }
-  
-  .logo img{
+
+  .logo img {
     height: 20px;
   }
- .number{
-  display: inline-block;
-  width: 100%;
-  text-align: right;
-
- }
+  .number {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+  }
   
-
+  .hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+.right{
+  width: 100%;
+}
+.form{
+  width: 50%;
 }
 
 
+}
