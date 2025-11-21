@@ -20,9 +20,35 @@ margin: 0px;
 .navbar{
   height: 10vh;
   width: 100%;
-background: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+}
+.logo{
+  width: 40%;
+}
+.pages{
+  display: flex;
+  gap: 20px;
+}
+.number{
+  color: white;
+  font-size: small;
+}
+.number p a{
+  color: #5BC8AF;
 }
 
+.pages a{
+  text-decoration: none;
+color: white;
+font-size: small;
+}
+.home {
+  font-weight: 700;
+}
 .hero{
   height:calc(80vh - 10vh - 10vh);
   display: flex;
@@ -65,3 +91,72 @@ height: 80%;
 .curve img{
   width: 100%;
 }
+@media (min-width:0px) and (max-width:480px) {
+  body{
+    font-size: 14px;
+  }
+  .navbar{
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .navbar{
+    height: 30vh;
+  }
+  .logo{
+    width: 50%;
+  }
+ 
+  .pages{
+    width: 50%;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+  
+  .logo img{
+    height: 20px;
+  }
+ .number{
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+
+ }
+  
+
+}
+
+@media (min-width:481px) and (max-width:786px) {
+  body{
+    font-size: 15px;
+  }
+  .navbar{
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .navbar{
+    height: 30vh;
+  }
+  .logo{
+    width: 50%;
+  }
+ 
+  .pages{
+    width: 50%;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+  
+  .logo img{
+    height: 20px;
+  }
+ .number{
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+
+ }
+  
+
+}
+
+
