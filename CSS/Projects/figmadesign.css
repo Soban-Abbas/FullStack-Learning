@@ -3,10 +3,13 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+  font-size: 16px;
 }
 body {
   padding: 0px;
   margin: 0px;
+  
+  
 }
 .main {
   position: relative;
@@ -94,6 +97,14 @@ body {
 .left-box p {
   margin-top: 20px;
 }
+.left-box h1{
+  font-size: 36px;
+  font-weight: 700;
+}
+.left-box h1 span{
+  font-size: 36px;
+  font-weight: 700;
+}
 .left-box p {
   font-size: 16px;
   font-weight: 300;
@@ -155,6 +166,71 @@ width: 100%;
   display: block;
 }
 
+.main-two{
+  width: 100%;
+  min-height: 50vh;
+  background:#F5F5F5;
+}
+.img-box{
+  height: 40vh;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+.box{
+  background: white;
+  height: 80%;
+  width: 25%;
+  
+}
+
+.box img{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.heading{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.we-undertand{
+  width: 80%;
+  height: 90%;
+  
+  display: flex;
+  align-items: center;
+ 
+
+}
+.we-undertand h2 span{
+   color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: 700;
+
+}
+.we-undertand h2{
+  font-weight: 700;
+  font-size: 36px;
+
+}
+.we-undertand h2 span{
+  font-size: 36px;
+  font-weight: 700;
+}
+
+
+
+
+
+
 
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -200,6 +276,23 @@ width: 100%;
 }
 .form{
   width: 70%;
+}
+.img-box{
+  height: 30vh;
+  justify-content: space-evenly;
+}
+.box{
+  width: 30%;
+  height: 50%;
+}
+.we-undertand h2{
+  font-weight: 700;
+  font-size: 16px;
+
+}
+.we-undertand h2 span{
+  font-size: 16px;
+  font-weight: 700;
 }
 }
 
@@ -248,5 +341,13 @@ width: 100%;
   width: 50%;
 }
 
+.we-undertand h2{
+  font-weight: 700;
+  font-size: 20px;
 
+}
+.we-undertand h2 span{
+  font-size: 20px;
+  font-weight: 700;
+}
 }
