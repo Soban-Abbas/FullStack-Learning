@@ -57,7 +57,6 @@ html {
 
   height: 70%;
   width: 30%;
-  
 }
 .left-top h1 {
   font-size: 3rem;
@@ -83,15 +82,27 @@ html {
 .left-down a:hover {
   background: rgb(50, 163, 172);
 }
-.right img{
-    height: 100%;
-    width: 100%;
-background: white;
-border-radius: 10px;
-object-fit:cover;
- 
+.right img {
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  object-fit: cover;
 }
-
+.feature {
+  width: 100%;
+  height: auto;
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+.feat-content {
+    
+  width: 40%;
+  padding: 10px;
+  color: white;
+   border: 1px solid white;
+}
 @media (min-width: 481px) and (max-width: 768px) {
   html {
     font-size: 14px;
@@ -114,25 +125,33 @@ object-fit:cover;
   }
   .hero {
     justify-content: space-evenly;
-    align-items:center;
+    align-items: center;
     gap: 10px;
   }
   .right {
     height: 60%;
   }
-  .left{
+  .left {
     height: 60%;
-    width:50%;
+    width: 50%;
   }
-  .left-top h1{
+  .left-top h1 {
     font-size: 2rem;
   }
   .left-top p {
-  font-size: 0.7rem;
-}
-.left-down a{
+    font-size: 0.7rem;
+  }
+  .left-down a {
     font-size: 0.8rem;
-}
+  }
+  .feat-content {
+    width: 100%;
+    padding: 50px;
+  }
+  .feature{
+    justify-content: left;
+
+  }
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -140,7 +159,7 @@ object-fit:cover;
     font-size: 12px;
   }
   .main {
-height: 90dvh;
+    height: 90dvh;
   }
   .navbar img {
     width: 25%;
@@ -156,7 +175,7 @@ height: 90dvh;
     padding-top: 10px;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     height: calc(80vh - 10vh);
     gap: 20px;
   }
@@ -169,17 +188,26 @@ height: 90dvh;
     height: 50%;
   }
 
-  .left-top h1{
+  .left-top h1 {
     font-size: 1.5rem;
   }
-  .left-top p{
+  .left-top p {
     font-size: 0.8rem;
   }
-  .left-down a{
+  .left-down a {
     font-size: 0.7rem;
   }
-  .right img{
+  .right img {
     height: 100%;
     width: 100%;
+  }
+  .feature{
+    justify-content: left;
+  }
+  .feat-content {
+    width: 100%;
+    padding: 10px;
+    color: white;
+   
   }
 }
