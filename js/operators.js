@@ -114,11 +114,16 @@
 //  sum= Math.round(sum*100)/100;
 // console.log(sum);
 
-let a =prompt("Enter number 1");
-a=Number(a);
-a=a*100;
-let b =prompt("Enter number 2");
-b=Number(b);
-b=b*100;
-sum=a+b;
-console.log(sum/100);
+// let a =prompt("Enter number 1");
+// a=Number(a);
+// a=a*100;
+// let b =prompt("Enter number 2");
+// b=Number(b);
+// b=b*100;
+// sum=a+b;
+// console.log(sum/100);
+
+
+let  num1=null;
+let num2=null;
+console.log(num1===num2);
