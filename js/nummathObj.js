@@ -25,4 +25,27 @@
 // console.log(Math.max(23,32,3,0,89));
 
 // console.log(Math.random().toFixed(2));
-console.log(Math.floor(Math.random()*10));
+// console.log(Math.floor(Math.random()*10+1));
+
+   
+// console.log(Math.floor(Math.random()*6+1));
+
+// console.log( Math.floor(Math.random()*6+1));
+
+// console.log( Math.floor (Math.random()*11)+15 )
+
+
+// general formula 
+// math.floor(math.random()*(max-min+1)+min)
+//let suppose i want to print number from 45 to 55
+//using formula 
+// console.log(Math.floor(Math.random()*(55-45+1)+45));
+
+
+//generating otp 
+
+
+console.log(Math.floor(Math.random()*(9999-1000+1)+1000));
+  
+
+ 
