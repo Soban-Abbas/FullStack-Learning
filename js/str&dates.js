@@ -25,7 +25,7 @@
                 //------------
    
                 
-// let str=`my name is soban abbbas soban`;
+let str=`my name is soban abbbas soban`;
 // console.log(str.indexOf('sob'));
 // console.log(str.indexOf('sb'));
 // console.log(str.lastIndexOf('so'));
@@ -36,9 +36,10 @@
 // console.log(str.includes('soban'));
 
                 //------------slice 
-// console.log(str.slice(2,5));
+ console.log(str.slice(2,5));
+ console.log(str);
 // console.log(str.slice(5));
-                //------------substring same as slice
+                //------------substring (same as slice)
 //  let str=`my name is soban abbbas soban`;
      
 //   console.log(str.substring(3,5))
@@ -120,7 +121,7 @@
 
 // Thu Jan 01 1970 05:00:00 GMT+0500 (Pakistan Standard Time) date concept in milisec get started
 
-let date=Date.now();
-console.log(date)
-let dates=new Date(date)
-console.log(dates)
+// let date=Date.now();
+// console.log(date)
+// let dates=new Date(date)
+// console.log(dates)
