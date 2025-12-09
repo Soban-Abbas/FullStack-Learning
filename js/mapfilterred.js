@@ -380,15 +380,15 @@ const data = [
 // ])
 
 //example
-const map1=new Map([
-  ['name','soban'],
-  [20,20],
-  [true,'student'],
-  [[10,20,30],'marks']
-])
+// const map1=new Map([
+//   ['name','soban'],
+//   [20,20],
+//   [true,'student'],
+//   [[10,20,30],'marks']
+// ])
 
-console.log(map1);
-map1.set({name:'ali'},"hello")
+// console.log(map1);
+// map1.set({name:'ali'},"hello")
 
 // has 
 // delete
