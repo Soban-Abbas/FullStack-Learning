@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="astrology.css">
+</head>
+<body>
+   <div class="container">
+<h2>Astrology Prediction</h2>
+
+
+<form id="astroForm">
+<label>Name</label>
+<input type="text" id="name" required />
+
+
+<label>Day (1-31)</label>
+<input type="number" id="day" min="1" max="31" required />
+
+
+<label>Month (1-12)</label>
+<input type="number" id="month" min="1" max="12" required />
+
+
+<label>Year (<=2025)</label>
+<input type="number" id="year" min="1900" max="2025" required />
+
+
+<button type="submit">Predict</button>
+</form>
+
+
+<div id="result"></div>
+</div>
+
+
+    <script src="astrology.js"></script>
+</body>
+</html>
