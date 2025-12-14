@@ -76,7 +76,7 @@ border-radius: 5px;
 
 .btndiv{
     display: flex;
-    gap: 3px;
+    gap: 4px;
     justify-content: center;
     
 }

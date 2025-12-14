@@ -19,4 +19,15 @@ btndiv.classList.add("btndiv")
 btndiv.append(donebtn,deletebtn)
 taskparent.append(btndiv)
 
+deletebtn.addEventListener("click",(e)=>{
+    if(e.target.tagName==='BUTTON'){
+        e.target.parentElement.parentElement.remove();
+    }
+
+})
+
+donebtn.addEventListener("click",()=>{
+    taskChild.style.textDecoration='line-through'
+})
+
 })
