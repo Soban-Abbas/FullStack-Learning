@@ -1,0 +1,11 @@
+*{
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    box-sizing: border-box;
+}
+.middiv{
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    background: wheat;
+    
+}
