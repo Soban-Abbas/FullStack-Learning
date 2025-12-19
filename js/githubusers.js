@@ -14,6 +14,22 @@ maindiv.append(div)
 let img=document.createElement('img');
 img.src=user.avatar_url;
 img.classList.add('img');
+let details=document.createElement('a');
+details.href=user.url;
+img.append(details);
+img.addEventListener('click',async ()=>{
+    maindiv.remove();
+    let detailUser= await fetch(user.url)
+    let detailUserJson=await detailUser.json();
+let detailsdiv=document.createElement('div');
+detailsdiv.style.height='400px';
+detailsdiv.style.width='500px';
+detailsdiv.style.backgroundColor='white';
+detailsdiv.style.color='black';
+detailsdiv.textContent=`Name:${detailUserJson.name}
+Location: ${detailUserJson.location}`;
+document.body.append(detailsdiv);
+})
   let Username=document.createElement('h3');
   Username.textContent=user.login;
 
